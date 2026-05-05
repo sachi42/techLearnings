@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Input from "./Input";
 import PostDisplay from "./PostDisplay";
 
+// this is the main component which will render the input and post display component and also maintain the state of the title, description and submitted data.
 function Home() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
